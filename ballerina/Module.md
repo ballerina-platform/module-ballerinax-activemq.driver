@@ -1,6 +1,6 @@
 ## Overview
 
-This module bundles the latest ActiveMQ driver so that JMS connector can be used in ballerina projects easily.
+This module bundles the latest ActiveMQ client so that JMS connector can be used in ballerina projects easily.
 
 ## Compatibility
 

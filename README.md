@@ -3,7 +3,7 @@
 The ActiveMQ Driver library is one of the external library packages of the <a target="_blank" href="https://ballerina.io
 /"> Ballerina</a> language. 
 
-This Package bundles the latest ActiveMQ driver so that JMS connector can be used in ballerina projects easily.
+This Package bundles the latest ActiveMQ client so that JMS connector can be used in ballerina projects easily.
 
 ## Build from the source
 
