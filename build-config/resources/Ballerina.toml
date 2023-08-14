@@ -6,15 +6,27 @@ authors = ["Ballerina"]
 keywords = ["ActiveMQ"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-activemq.driver"
 license = ["Apache-2.0"]
-distribution = "2201.6.0"
+distribution = "2201.7.0"
+
+[platform.java11]
+graalvmCompatible = true
 
 [[platform.java11.dependency]]
+groupId = "org.apache.activemq"
+artifactId = "activemq-client"
+version = "@activemq.client.version@"
 path = "./lib/activemq-client-@activemq.client.version@.jar"
 
 [[platform.java11.dependency]]
+groupId = "org.apache.geronimo.specs"
+artifactId = "geronimo-j2ee-management_1.1_spec"
+version = "@geronimoj2ee.spec.version@"
 path = "./lib/geronimo-j2ee-management_1.1_spec-@geronimoj2ee.spec.version@.jar"
 
 [[platform.java11.dependency]]
+groupId = "org.fusesource.hawtbuf"
+artifactId = "hawtbuf"
+version = "@hawtbuf.version@"
 path = "./lib/hawtbuf-@hawtbuf.version@.jar"
 
 [[platform.java11.dependency]]
