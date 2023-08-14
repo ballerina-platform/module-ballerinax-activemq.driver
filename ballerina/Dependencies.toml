@@ -10,7 +10,7 @@ distribution-version = "2201.7.0"
 [[package]]
 org = "ballerinax"
 name = "activemq.driver"
-version = "0.1.1"
+version = "0.2.0"
 modules = [
 	{org = "ballerinax", packageName = "activemq.driver", moduleName = "activemq.driver"}
 ]
