@@ -24,8 +24,8 @@ version = "@geronimoj2ee.spec.version@"
 path = "./lib/geronimo-j2ee-management_1.1_spec-@geronimoj2ee.spec.version@.jar"
 
 [[platform.java11.dependency]]
-groupId = "io.ballerina.stdlib"
-artifactId = "activemq.driver-native"
+groupId = "org.fusesource.hawtbuf"
+artifactId = "hawtbuf"
 version = "@hawtbuf.version@"
 path = "./lib/hawtbuf-@hawtbuf.version@.jar"
 
