@@ -30,7 +30,7 @@ version = "1.11"
 path = "./lib/hawtbuf-1.11.jar"
 
 [[platform.java11.dependency]]
-groupId = "org.fusesource.hawtbuf"
-artifactId = "hawtbuf"
+groupId = "io.ballerina.stdlib"
+artifactId = "activemq.driver-native"
 version = "0.2.0"
 path = "../native/build/libs/activemq.driver-native-0.2.0-SNAPSHOT.jar"
