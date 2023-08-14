@@ -12,16 +12,25 @@ distribution = "2201.7.0"
 graalvmCompatible = true
 
 [[platform.java11.dependency]]
+groupId = "org.apache.activemq"
+artifactId = "activemq-client"
+version = "@activemq.client.version@"
 path = "./lib/activemq-client-@activemq.client.version@.jar"
 
 [[platform.java11.dependency]]
+groupId = "org.apache.geronimo.specs"
+artifactId = "geronimo-j2ee-management_1.1_spec"
+version = "@geronimoj2ee.spec.version@"
 path = "./lib/geronimo-j2ee-management_1.1_spec-@geronimoj2ee.spec.version@.jar"
-
-[[platform.java11.dependency]]
-path = "./lib/hawtbuf-@hawtbuf.version@.jar"
 
 [[platform.java11.dependency]]
 groupId = "io.ballerina.stdlib"
 artifactId = "activemq.driver-native"
+version = "@hawtbuf.version@"
+path = "./lib/hawtbuf-@hawtbuf.version@.jar"
+
+[[platform.java11.dependency]]
+groupId = "org.fusesource.hawtbuf"
+artifactId = "hawtbuf"
 version = "@toml.version@"
 path = "../native/build/libs/activemq.driver-native-@project.version@.jar"
