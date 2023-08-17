@@ -9,8 +9,8 @@ This Package bundles the latest ActiveMQ client so that JMS connector can be use
 
 ### Set up the prerequisites
 
-1. Download and install Java SE Development Kit (JDK) version 11 (from one of the following locations).
-    * [Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+1. Download and install Java SE Development Kit (JDK) version 17 (from one of the following locations).
+    * [Oracle](https://www.oracle.com/java/technologies/downloads/)
     * [OpenJDK](https://adoptium.net/)
 
 2.  Export your GitHub personal access token with read package permissions as follows.
