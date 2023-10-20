@@ -6,7 +6,7 @@ This package bundles the latest ActiveMQ client so that JMS connector can be use
 
 | |   Version    |
 |:---|:------------:|
-|Ballerina Language | **2201.6.0** |
+|Ballerina Language | **2201.8.0** |
 |ActiveMQ Client Connector* |  **5.18.2**  |
 
 > *ActiveMQ Client Connector 5.18.2 is released under Apache 2.0 License.
