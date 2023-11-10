@@ -14,8 +14,8 @@ graalvmCompatible = true
 [[platform.java17.dependency]]
 groupId = "org.apache.activemq"
 artifactId = "activemq-client"
-version = "5.18.2"
-path = "./lib/activemq-client-5.18.2.jar"
+version = "5.18.3"
+path = "./lib/activemq-client-5.18.3.jar"
 
 [[platform.java17.dependency]]
 groupId = "org.apache.geronimo.specs"
