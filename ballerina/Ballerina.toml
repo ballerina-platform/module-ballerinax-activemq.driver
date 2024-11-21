@@ -1,7 +1,7 @@
 [package]
 org = "ballerinax"
 name = "activemq.driver"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Ballerina"]
 keywords = ["ActiveMQ"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-activemq.driver"
@@ -32,5 +32,5 @@ path = "./lib/hawtbuf-1.11.jar"
 [[platform.java17.dependency]]
 groupId = "io.ballerina.stdlib"
 artifactId = "activemq.driver-native"
-version = "1.0.1"
-path = "../native/build/libs/activemq.driver-native-1.0.1.jar"
+version = "1.0.2"
+path = "../native/build/libs/activemq.driver-native-1.0.2-SNAPSHOT.jar"
