@@ -593,6 +593,15 @@
           ]
         }
       ]
+    },
+    {
+      "name":"org.apache.activemq.transport.failover.FailoverTransportFactory",
+      "methods":[
+        {
+          "name":"<init>",
+          "parameterTypes":[] 
+        }
+      ]
     }
   ]
   
