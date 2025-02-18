@@ -60,6 +60,17 @@ allprojects {
     }
 }
 
+subprojects {
+    configurations {
+        jbalTools
+    }
+    dependencies {
+        jbalTools("org.ballerinalang:jballerina-tools:${ballerinaLangVersion}") {
+            transitive = false
+        }
+    }
+}
+
 def moduleVersion = project.version.replace("-SNAPSHOT", "")
 
 release {
