@@ -18,11 +18,6 @@ plugins {
     id "net.researchgate.release"
 }
 
-ext.ballerinaLangVersion = project.ballerinaLangVersion
-ext.activemqClientVersion = project.activemqClientVersion
-ext.geronimoJ2eeMng11SpecVersion = project.geronimoJ2eeMng11SpecVersion
-ext.hawtbufVersion = project.hawtbufVersion
-
 allprojects {
     group = project.group
     version = project.version
