@@ -7,6 +7,7 @@ keywords = ["Vendor/ActiveMQ", "Area/Communication", "Type/Driver"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-activemq.driver"
 license = ["Apache-2.0"]
 distribution = "2201.11.0"
+icon = "icon.png"
 
 [platform.java21]
 graalvmCompatible = true
