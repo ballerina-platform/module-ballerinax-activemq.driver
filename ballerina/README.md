@@ -44,8 +44,8 @@ This module bundles the latest ActiveMQ client so that JMS connector can be used
 
 | |   Version    |
 |:---|:------------:|
-|Ballerina Language | **2201.8.0** |
-|ActiveMQ Client Connector* |  **5.18.2**  |
+|Ballerina Language | **2201.11.0** |
+|ActiveMQ Client Connector* |  **5.18.3**  |
 
 > *ActiveMQ Client Connector 5.18.2 is released under Apache 2.0 License.
 
