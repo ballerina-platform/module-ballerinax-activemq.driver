@@ -4,6 +4,13 @@ The ActiveMQ driver provides a reliable and high-performance connectivity to Apa
 
 ### Key Features
 
+- High-performance and reliable connectivity to ActiveMQ
+- Support for various messaging patterns and features
+- Efficient handling of connections and resources
+- Reliable message delivery and secure communication
+- Simplified production and consumption of messages
+- GraalVM compatible for native image builds
+
 ## Package overview
 
 This package bundles the latest ActiveMQ client so that JMS connector can be used in ballerina projects easily.
