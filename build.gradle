@@ -23,6 +23,9 @@ allprojects {
     version = project.version
 
     apply plugin: 'jacoco'
+    jacoco {
+        toolVersion = jacocoVersion
+    }
     apply plugin: 'maven-publish'
 
     repositories {
@@ -82,7 +85,14 @@ release {
     }
 }
 
-task build {
-    dependsOn(':activemq.driver-ballerina:build')
-    dependsOn(':activemq.driver-native:build')
+if (tasks.names.contains('build')) {
+    tasks.named('build') {
+        dependsOn(':activemq.driver-ballerina:build')
+        dependsOn(':activemq.driver-native:build')
+    }
+} else {
+    tasks.register('build') {
+        dependsOn(':activemq.driver-ballerina:build')
+        dependsOn(':activemq.driver-native:build')
+    }
 }
